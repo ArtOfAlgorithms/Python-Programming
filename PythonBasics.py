@@ -137,11 +137,11 @@
 # print(increment(2, 5))
 
 # VARIABLE NUMBER OF ARGUMENTS
-# def multiply(*numbers):
-#     total = 1
-#     for number in numbers:
-#         total *= number
-#     print(total)
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    print(total)
 
 
 # multiply(1, 2, 3, 4)
